@@ -8,7 +8,9 @@ into the {body} of the default.hbs template --}}
         <div class="site-header-content">
             <h1 class="site-title">
                 {{#if @blog.logo}}
+                  <a href="https://picnichealth.com"  alt="PicnicHealth Home">
                     <img class="site-logo" src="{{@blog.logo}}" alt="{{@blog.title}}" />
+                  </a>
                 {{else}}
                     {{@blog.title}}
                 {{/if}}

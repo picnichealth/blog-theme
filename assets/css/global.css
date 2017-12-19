@@ -1,3 +1,7 @@
+/* Font imports
+/* ---------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700');
+
 /* Variables
 /* ---------------------------------------------------------- */
 
@@ -14,6 +18,14 @@
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+
+    /* Picnic Colors */
+    --picnic-brand: #398bc2;
+    --link-color: #9eabb3;
+
+    /* Picnic Fonts */
+    --base-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --body-font: Georgia, serif;
 }
 
 /* Reset
@@ -282,7 +294,7 @@ html {
 body {
     overflow-x: hidden;
     color: color(var(--midgrey) l(-25%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--base-font);
     font-size: 1.5rem;
     line-height: 1.6em;
     font-weight: 400;
